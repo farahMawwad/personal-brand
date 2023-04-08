@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'farah';
+    src: url(../ttf/farahw.ttf) format(truetype);
+   
+}
+@font-face {
+    font-family: 'farah2';
+    src: url(../ttf/ChopinScript.ttf);
+}
+@font-face {
+    font-family: 'farah3';
+    src: url(../ttf/farah.ttf);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 200px auto 90px ;
+    grid-template-rows:100px ;
+    background-color: rgba(245, 248, 216, 0.833);
+    color: rgb(215, 158, 74);
+    align-items: center;
+}
+a { text-decoration: none;color: rgb(215, 158, 74); }
+.header ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns:  auto 25% 10px ;
+    grid-template-rows:130px  ;
+     justify-items: center; 
+    margin-top: 20px;
+    }
+.main div {grid-column-start: 1 ; margin-left: 200px; color: rgb(166, 140, 118);font-size: xxx-large; }
+#fa{background-color: rgb(247, 199, 96); color: aliceblue;
+     border: 2px solid rgb(214, 157, 74);
+    border-radius: 30px; padding-left: 20px;
+    width: 70px;
+    
+    }
+.main video{ border-radius: 100px; grid-column-start: 2;}
+
+#line{grid-row-start: 1; }
+
+#name{
+font-family:"farah";
+   
+}
+#hi {
+    font-family: "farah2";
+}
+.icon-social{
+    display: grid;
+    grid-template-columns: 60px 70px 20px 70px 70px;
+    grid-template-rows: 50px 90px 90px 90px 90px;
+    justify-items: center; align-items: center;
+}
+#linked-in { grid-column: 2/3; grid-row-start:3;    background-color: rgb(250, 251, 234);  padding: 15px; border-radius: 20px;}
+#twitter { grid-column-start: 3; grid-row-start:2 ;  background-color: rgb(230, 198, 143); padding: 15px; border-radius: 20px;}
+#instagram { grid-column-start: 3; grid-row-start:4; background-color:rgb(230, 198, 143) ;padding: 15px; border-radius: 20px;}
+#facebook { grid-column-start:4; grid-row-start:3 ; background-color: rgb(250, 251, 234); padding: 15px; border-radius: 20px;}
+.mains { display: grid; grid-template-columns: 50px auto 50px; grid-template-rows:10px 40px 200px 40px 80px 230px}
+#text{margin-left: 200px;font-size: xxx-large; color: rgb(166, 140, 118);;grid-column:1/4; grid-row-start: 3; background-color: rgb(217, 217, 219); border-radius: 60px;}
+
+#text2{margin-left: 200px;font-size: xxx-large; color: rgb(166, 140, 118);;grid-column:1/4; grid-row-start: 6; background-color:rgb(253, 243, 231); color: rgb(158, 162, 161);border-radius: 60px; }
+#farah{grid-column-start: 1;grid-row:2/3 ; }
+#farah1{grid-column-start: 4; grid-row-start: 5; margin-left: -100px;}
+.pic{border-radius: 30px;}

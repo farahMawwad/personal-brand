@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'farah';
+    src: url(../ttf/Plante.ttf) format(truetype);
+   
+}
+.header {
+    display: grid;
+    grid-template-columns: 200px auto 90px ;
+    grid-template-rows:100px ;
+    background-color: rgba(245, 248, 216, 0.833);
+    color: rgb(215, 158, 74);
+    align-items: center;
+}
+a { text-decoration: none;color: rgb(215, 158, 74); }
+.header ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 5px 50px 50px 50px 50px  ;
+}
+#skills {
+    font-family: 'farah'; font-size: 150px; margin-top: -200px;
+}
+.knack{
+    grid-column-start: 2;grid-row-start: 2;
+    display: grid;
+    grid-template-rows: 130px 130px 130px 130px ;
+    text-align: center; align-items: center;
+    padding: 60px;
+    font-size: xx-large;
+    font-family: farah;
+}

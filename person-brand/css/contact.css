@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'farah2';
+    src: url(../ttf/ChopinScript.ttf);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 200px auto 90px ;
+    grid-template-rows:100px ;
+    background-color: rgba(245, 248, 216, 0.833);
+    color: rgb(215, 158, 74);
+    align-items: center;
+}
+a { text-decoration: none;color: rgb(215, 158, 74); }
+.header ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.main{
+    display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: 60px 400px;
+}
+#img{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.icon-social{
+    grid-row-start: 2; grid-column-start: 2;
+    display: grid;
+    justify-items: center; align-items: center;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: 120px 100px  auto auto auto;
+}
+#text{ font-family: farah2; font-size: 50px; margin-bottom: 60px; color: rgb(215, 158, 74);grid-column: 1/4; grid-row-start: 1;}
+#phone {padding: 40px;margin-bottom: 60px; grid-column: 1/4; grid-row-start: 2 ;        background-color: bisque;border-radius: 30px;}
+#text-phone {grid-column: 1/4; grid-row-start: 2 ; margin-left: 100px;margin-top: 29px; color:rgb(154, 89, 3); ;font-family: 'farah2'; font-size: 50px;}
+#twitter {  padding: 40px; grid-column-start: 1; grid-row-start: 5; background-color: bisque; border-radius: 30px;}
+#text-twitter {grid-column-start: 1; grid-row-start: 5 ; margin-left: 100px;margin-top: 86px; color:rgb(154, 89, 3); ;font-family: 'farah2'; font-size: 50px;}
+#githup {padding: 40px; grid-column-start: 3; grid-row-start: 3;    background-color: bisque; border-radius: 30px;}
+#text-githup {grid-column-start: 3; grid-row-start: 3 ; margin-left: 100px;margin-top: 86px; color:rgb(154, 89, 3); ;font-family: 'farah2'; font-size: 50px;}
+#instagram{ padding: 40px; grid-column-start: 2; grid-row-start: 4; background-color: bisque; border-radius: 30px;}
+#text-instagram {grid-column-start: 2; grid-row-start: 4 ; margin-left: 100px;margin-top: 86px; color:rgb(154, 89, 3); ;font-family: 'farah2'; font-size: 50px;}
+#facebook { padding: 40px;grid-column-start: 3; grid-row-start: 5;  background-color: bisque; border-radius: 30px;}
+#text-facebook {grid-column-start: 3; grid-row-start: 5 ; margin-left: 100px;margin-top: 86px; color:rgb(154, 89, 3); ;font-family: 'farah2'; font-size: 50px;}
+#linked-in { padding: 40px;grid-column-start: 1; grid-row-start: 3; background-color: bisque; border-radius: 30px;}
+#text-linked {grid-column-start: 1; grid-row-start: 3 ; margin-left: 100px;margin-top: 86px; color:rgb(154, 89, 3); ;font-family: 'farah2'; font-size: 50px;}
